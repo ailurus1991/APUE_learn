@@ -1,6 +1,7 @@
 #include "../include/apue.h"
 
 /* usage: ./bin < input file > output file
+ * here open/read/write/lseek and close use the buffer functions of I/O
  */
 #define BUFFSIZE 4096
 
